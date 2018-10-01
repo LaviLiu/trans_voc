@@ -45,6 +45,7 @@ people_detection/JPEGImages/train/202017000300_R_2018_05_17_11_37_26_left_000467
       - people_detection_train_lmdb # 生成的训练集lmdb文件位置
       - people_detection_test_lmdb #生成的测试集lmdb文件位置
       - labelmap_people_detection.prototxt # 列表标签映射文件
+      
       #下面的四个文件是从上面的listfile文件夹中复制来的，之所以复制到result是以为，训练网络的时候会用到这四个文件，把训练用到到的文件都放在result文件夹下，比较清晰容易找到
       - train.txt # 训练集图片与标注的xml文件列表，是上面使用create_list.py生成的
       - test.txt # 测试集图片与标注的xml文件列表，是上面使用create_list.py生成的
