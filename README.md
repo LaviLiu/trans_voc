@@ -59,5 +59,7 @@ people_detection/JPEGImages/train/202017000300_R_2018_05_17_11_37_26_left_000467
 1. visual_boxes.py 使用opencv-python 可视化txt文件中的标注框
 2. drawbox.py 使用PIL.ImageDraw 可视化txt文件的标注框
 3. renameTool.py 对图片文件重命名，同时可以对对应的标注文件重命名
-
+# pelee_demo
+pelee_demo是我按照这个步骤训练peleenet 的一个demo
+pelee链接：[Pelee](https://github.com/Robert-JunWang/Pelee)
 
